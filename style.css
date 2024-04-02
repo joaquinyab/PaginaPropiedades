@@ -1,0 +1,317 @@
+
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+/************MENU PRINCIPAL*********************/
+.MenuPrincipal{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    font-size: 40px;
+    color: black;
+    background: rgb(6, 6, 6);
+    z-index: 1;
+}
+
+.MenuPrincipal a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    padding: 0;
+    
+}
+
+body{
+    background: rgb(147, 139, 139);
+}
+
+
+
+
+
+.contenedorPadre{
+    width: 300px;
+    height: 300px;
+
+}
+
+.caja1Hijo{
+    background-color: rgb(19, 5, 28);
+    position: relative;
+    width: 120px;
+    height: 120px;
+    top: -20px;
+    left: -20px;
+
+}
+
+.caja2{
+    background-color: aquamarine;
+    position: relative;
+    z-index: 1;   /*Para que se superponga a la 3 que hasta ahora estaba con prioridad por el relative*/
+    bottom: 20px;
+    width: 120px;
+    height: 120px;
+    display: block;
+    text-decoration: underline;
+    border: 2px solid rgb(255, 0, 0);
+    position: relative;
+
+   
+}
+.caja3{
+    background-color: green;
+    position: relative;
+    bottom: 20px;
+    width: 120px;
+    height: 120px;
+    display: block;
+    text-decoration: underline;
+    border: 2px solid rgb(255, 0, 0);
+    position: relative;
+    
+}
+.caja4{
+    background-color: brown;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    display: block;
+    text-decoration: underline;
+    border: 2px solid rgb(255, 0, 0);
+    position: relative;
+    bottom: 20px;
+    
+}
+
+
+
+
+.contenedorPadreAbsolute{
+    margin: 100px;
+    position: relative;
+    margin: 50px auto;
+    border: 9px solid blue;
+    height: 450px;
+    width: 450px;
+    background: rgb(153, 196, 153);
+}
+ 
+div div{   
+    height: 75px;
+    position: absolute;
+    width: 75px;  /*Seleccionamos los divs adentro de divs UNICAMENTE*/       
+}
+
+.caja5{                         
+    background: crimson;
+    bottom: 0;
+}
+
+.caja6{
+    background: rgb(115, 88, 93);
+    right: 0;
+}
+.caja7{
+    background: rgb(49, 81, 71);
+    bottom: 0;
+    right: 0;
+}
+
+.caja8{                                   
+    background: rgb(109, 102, 150);
+    left: 0;
+}
+
+
+.OverflowAbsolute{
+    overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+h1{                     /*Selecciono por etiqueta*/              
+    color: blue;
+    line-height: 1;
+}
+
+.ClasetituloH1{           /*Selecciono por Clase*/ 
+    color: wheat;
+}
+
+#IdtituloH1{                /*Selecciono ID*/
+    color: aqua;
+}
+
+
+h5{
+    color: blueviolet;
+}
+
+
+.color-blue{
+    color: blue;
+}
+
+
+.Formulario-contacto__input{
+    color: brown;
+}
+
+.Formulario-contacto{
+    font-size: 20px;
+    background-color: black;
+    width: 80vw;        /*Ocupa el 50% del width*/
+    height: 50vh;        /*Ocupa el 50% del Height*/
+
+}
+
+
+h2{
+    display: inline;        
+}
+b{
+    display: block;
+}
+
+.Cajaprueba{
+    background-color: chartreuse;
+    padding: 10px;
+    margin: 20px 20px 30px 52px;
+    border-radius: 20%;
+    border: 2px solid blue ;
+}
+
+
+
+
+
+.contenedorPadreFixed{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    background: rgb(6, 6, 6);
+    z-index: 1;
+}
+
+
+.Index2{
+    z-index: 30;
+}
+
+.OverflowRelative{
+    position: absolute;
+    bottom: 150px;
+    left: 15%;
+    width: 320px;
+    height: 250px;
+    border: 4px solid rgb(0, 0, 0);
+    background: rgb(143, 128, 128);
+    text-shadow: 4px;
+    overflow: auto;
+}
+
+.OverflowAbsolute{
+    position: absolute;
+    top: 125%;
+    left: 70%;
+    width: 320px;
+    height: 250px;
+    border: 4px solid rgb(0, 0, 0);
+    background: rgb(143, 128, 128);
+    text-shadow: 4px;
+    overflow: auto;
+}
+
+.OverflowFixed{
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    width: 320px;
+    height: 250px;
+    border: 4px solid rgb(0, 0, 0);
+    background: rgb(143, 128, 128);
+    text-shadow: 4px;
+    overflow: auto;
+}
+.H1Fixed{
+    margin-left: 70%
+}
+/****************************PAGINA2***********/
+
+
+.cajaBlock1{
+    width: 150px;
+    display: inline-block;
+    margin: 20px;
+    height: 150px;
+    border: 10px solid red;
+    background: yellow;
+}
+
+.OverflowInlineBlock{
+    overflow: auto;
+    position: absolute;
+    left: 60%;
+    top: 10%;
+    width: 320px;
+    border:2px solid black;
+    height: 250px;
+}
+
+
+b{
+    display: inline;
+    margin: 20px;
+}
+
+.cajaBlock2{
+    width: 150px;
+    display: block;
+    margin: 5px;
+    height: 150px;
+    border: 10px solid red;
+    background: yellow;
+
+}
+
+.OverflowBlock{
+    width: 30vw;
+    position: absolute;
+    left: 40%;
+    top: 600px;
+    height: 20vh;
+    overflow: auto;
+    border: 2px solid black;
+}
+
+.Enlinea{
+    display: inline;
+}
+
+.OverflowINLINE{
+    overflow: auto;
+    width: 30vw;
+    height: 20vh;
+    border: 2px solid black;
+}
