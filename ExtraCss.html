@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">nk
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="contenedorPadreFixed">
+        <a  href="index.html">Menu Principal</a>
+    </div>
+
+    <br>
+    <br>
+    <h1 class="TituloPseudo">PSEUDO ELEMENTOS Y PSEUDOCLASES</h1>
+
+    <div class="TextoPseudo">
+        Una pseudoclase en CSS es una extensión del selector que te permite aplicar estilos a un elemento en función de su estado o relación con el documento HTML. No se enumeran como los selectores regulares, sino que se utilizan para definir estilos específicos para estados particulares de los elementos, como :hover para cuando el mouse está sobre el elemento, :focus para cuando el elemento está seleccionado, :active para cuando está siendo activado, entre otros. Esto permite crear estilos dinámicos y mejorar la experiencia del usuario en la interfaz web.(Solo funcionan en elemento en bloque)
+    </div>
+
+    <h2>::first-line</h2>
+    <div class="TextoPseudoFirstLine">
+        
+        La pseudoclase ::first-line es una pseudo-clase de CSS que te permite aplicar estilos específicos al primer línea de un elemento de bloque. Esto significa que puedes cambiar el formato de la primera línea de un párrafo, un encabezado u otro elemento de bloque sin afectar al resto del texto dentro del mismo elemento.
+            Por ejemplo, puedes utilizar ::first-line para cambiar la fuente, el tamaño de fuente, el color o la decoración del texto solo en la primera línea de un párrafo. Esto es útil para resaltar visualmente el comienzo de un párrafo o para hacer que ciertas partes del texto se destaquen..
+    </div>
+
+
+    <br>
+    <br>
+    <h2>::PlaceHolder</h2>
+
+    <div class="TextoPseudo">
+        
+        La pseudoclase ::placeholder en CSS se utiliza para estilizar el texto de marcador de posición dentro de un elemento de formulario, como un campo de entrada (input) o un área de texto (textarea). Este texto de marcador de posición es el texto que aparece dentro del campo antes de que el usuario ingrese algún valor.
+    </div>
+
+    <form>
+        <input type="text" placeholder="Inserte su nombre aqui">
+    </form>
+
+
+    <h2>::BEFORE (en rojo) ::AFTER (en blanco)</h2>
+    <br>
+    <br>
+    <b>
+        me llamo
+    </b>
+
+    <br>
+    <br>
+    <h1 class="TituloPseudo">PSEUDO CLASES</h1>
+
+    <br>
+
+    <h2>:hover</h2>
+    <br>
+    <br>
+    <div class="HoverCaja">
+        Caja con hover
+    </div>
+
+    <br>
+    <br>
+    <h2>:link --> :visited</h2>
+    <br>
+    <br>
+    <a class="LinkA"  href="https://www.youtube.com/watch?v=OWKXN67FE&t=12676s"  target="_blank">Google</a>
+
+    <br>
+    <br>
+
+    <h2>:active</h2>
+    <br>
+    <br>
+    <div class="Cajaactive">
+
+    </div>
+
+    <br>
+
+    <h2>:focus</h2>
+    <br>
+    <br>
+    <input class="Inputfocus" type="text">
+
+
+    
+</body>
+</html>
